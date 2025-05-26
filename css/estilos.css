@@ -1,0 +1,116 @@
+.objetivo-img {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.row.mb-4 {
+    border-radius: 15px;
+    padding: 15px;
+    background-clip: padding-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.caso-exito-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.caso-exito-card:hover {
+    transform: scale(1.02);
+}
+
+.caso-exito-card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.card-enlace img {
+    border-radius: 12px;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card-enlace a.btn {
+    font-size: 0.875rem;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+.card-enlace p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.card-enlace {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-enlace:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+h2.titulo-principal {
+    background: linear-gradient(90deg, #198754, #14532d);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(216, 18, 18, 0.2);
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(244, 10, 10, 0.3);
+}
+.img-destacada {
+    border-radius: 80px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.img-destacada:hover {
+    transform: scale(1.01);
+}
+.subtitulo-seccion {
+    background: linear-gradient(90deg, #198754, #14532d);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
